@@ -10,7 +10,7 @@
   .sidebar-container {
     transition: width 0.28s;
     width: $sideBarWidth !important;
-    background-color: $menuBg;
+    background-color: #fff;
     height: 100%;
     position: fixed;
     font-size: 0px;
@@ -61,11 +61,14 @@
       margin-right: 12px;
       margin-left: -2px;
     }
-
+    .el-scrollbar__view{
+        background-color: #fff;
+    }
     .el-menu {
       border: none;
       height: 100%;
       width: 100% !important;
+    
     }
 
     // menu hover

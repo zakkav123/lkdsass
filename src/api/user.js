@@ -12,3 +12,9 @@ export function login(data) {
     data,
   })
 }
+
+export function userInfo(id) {
+  return request({
+    url: `/api/user-service/user/${id}`,
+  })
+}

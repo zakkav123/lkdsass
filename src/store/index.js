@@ -4,7 +4,7 @@ import getters from './getters'
 import app from './modules/app'
 import settings from './modules/settings'
 import user from './modules/user'
-import createVuexPersisted from 'vuex-persistedstate'
+import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
